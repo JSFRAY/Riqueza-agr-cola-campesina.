@@ -1,10 +1,15 @@
 body {
   margin: 0cm;
-  /*Personaliza el tipo de letra que se utilice en la pagina web.*/
-  font-family: 'Noto Sans', sans-serif;
+  /*Personaliza el tipo de letra que se utiliza en los textos de la pagina web.*/
+  font-family: "Oswald", sans-serif;
 }
-h1,h2,h3,h4,h5{
-  font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  /*Personaliza el tipo de letra que se utiliza en los titulos de la pagina web.*/
+  font-family: "Playfair Display", serif;
 }
 .c {
   height: 400px;
@@ -18,7 +23,7 @@ h1,h2,h3,h4,h5{
   background-blend-mode: darken;
 }
 /*Configuración de espacio de la imagen de las tarjetas.*/
-.c-small{
+.c-small {
   height: 200px;
   background-blend-mode: normal;
 }
@@ -32,11 +37,9 @@ h1,h2,h3,h4,h5{
   background-color: #e7b996;
 }
 /*Configuración de la altura de los titulos y el texto de las tarjetas.*/
-.card-title{
-  color:black;
-  min-height:3rem;
+.card-title {
+  min-height: 3rem;
 }
-.card-text{
-  color:black;
-  min-height:10rem;
+.card-text {
+  min-height: 10rem;
 }
