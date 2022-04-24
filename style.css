@@ -1,6 +1,9 @@
 body {
   margin: 0cm;
   /*Personaliza el tipo de letra que se utilice en la pagina web.*/
+  font-family: 'Noto Sans', sans-serif;
+}
+h1,h2,h3,h4,h5{
   font-family: 'Playfair Display', serif;
 }
 .c {
@@ -30,8 +33,10 @@ body {
 }
 /*Configuración de la altura de los titulos y el texto de las tarjetas.*/
 .card-title{
+  color:black;
   min-height:3rem;
 }
 .card-text{
+  color:black;
   min-height:10rem;
 }
