@@ -19,5 +19,5 @@ body{
   /*Quita el borde de la card*/
   border:0 !important;
   /*Pone un fondo en la card*/
-  
+  background-color:#e7b996;
 }
