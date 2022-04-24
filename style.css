@@ -12,6 +12,10 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
+.c-small{
+  height: 200px;
+  background-blend-mode: normal;
+}
 .btn {
   color: black;
 }
