@@ -1,5 +1,7 @@
 body {
   margin: 0cm;
+  /*Personaliza el tipo de letra que se utilice en la pagina web.*/
+  font-family: 'Playfair Display', serif;
 }
 .c {
   height: 400px;
