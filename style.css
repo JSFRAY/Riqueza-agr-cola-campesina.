@@ -12,6 +12,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
+/*Configuración de espacio de la imagen de las tarjetas.*/
 .c-small{
   height: 200px;
   background-blend-mode: normal;
@@ -24,4 +25,11 @@ body {
   border: 0 !important;
   /*Pone un fondo en la card*/
   background-color: #e7b996;
+}
+/*Configuración de la altura de los titulos y el texto de las tarjetas.*/
+.card-title{
+  min-height:3rem;
+}
+.card-text{
+  min-height:10rem;
 }
