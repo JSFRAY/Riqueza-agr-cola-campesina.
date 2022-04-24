@@ -15,3 +15,9 @@ body{
 .btn{
   color:black;
 }
+.card{
+  /*Quita el borde de la card*/
+  border:0 !important;
+  /*Pone un fondo en la card*/
+  
+}
