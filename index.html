@@ -34,47 +34,39 @@
         style="background-color: #d99058"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Logo.</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+          <!--Configuración de la imagen o logo mas el texto que le queramos dar.-->
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/CoffeeDoddle.svg?v=1650829595635"
+              alt=""
+              width="50"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+            Texto que va al lado de la imagen
+          </a>
+          <!--Configuración de los botones de forma relativa dependiendo de la posicion que le queramos dar.-->
+          <button type="button" class="btn btn-outline-light position-relative" href="#Mapa">
+            <a class="btn" href="#Mapa">Ubicación.</a>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary"
+            ></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <button
-                  type="button"
-                  class="btn btn-outline-light btn-sm"
-                  href="#Mapa"
-                >
-                  <a class="btn" href="/">Inicio.</a>
-                </button>
-              </li>
-              <li class="nav-item">
-                <button
-                  type="button"
-                  class="btn btn-outline-light btn-sm"
-                  href="#Mapa"
-                >
-                  <a class="btn" href="#Mapa">Ubicación.</a>
-                </button>
-              </li>
-            </ul>
-            <span class="navbar-text">
-              Navbar text with an inline element
-            </span>
-          </div>
+          <button type="button" class="btn btn-primary position-relative">
+            Alerts
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"
+              ><span class="visually-hidden">unread messages</span></span
+            >
+          </button>
+          <!--Configuración de como va los textos para que queden bien alineados sin importar el tamaño del dispocitivo.-->
+          <span class="navbar-text"> hola </span>
+          <span class="navbar-text">
+            todo configurado para que se vea bien en cualquier dispositivo
+          </span>
         </div>
-        
-      </nav>
-      <!--Configuración de la introducción.-->
+       </nav>
+       <!--Configuración de la introducción.-->
       <div
         class="c d-flex justify-content-center align-items-center flex-column"
       >
