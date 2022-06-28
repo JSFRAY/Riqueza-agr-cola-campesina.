@@ -23,6 +23,16 @@ h5 {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
+.Datos {
+  height: 100px;
+  background-color: #d99058;
+  color: white;
+  /*Configuración de la imagen en el espacio.*/
+  background-size: cover;
+  background-position: center;
+  /*Configuración de cuan opaco quieres la imagen.*/
+  background-blend-mode: darken;
+}
 /*Configuración de espacio de la imagen de las tarjetas.*/
 .c-small {
   height: 200px;
