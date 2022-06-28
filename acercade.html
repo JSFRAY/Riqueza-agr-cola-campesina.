@@ -30,33 +30,38 @@
     <header>
       <!--Configuración de la barra de la parte de encima.-->
       <!-- As a link -->
-      <nav class="navbar bg-light">
+     <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #d99058"
+      >
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <!--Configuración de la imagen o logo mas el texto que le queramos dar.-->
+            <a class="navbar-brand">
+              <img
+                src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/CoffeeDoddle.svg?v=1650829595635"
+                alt=""
+                width="50"
+                height="30"
+                class="d-inline-block align-text-top"
+              />
+              Texto que va al lado de la imagen
+            </a>
+          </li>
+          <li class="nav-item"></li>
+        </ul>
         <div class="container-fluid">
-          <!--Configuración de la imagen o logo mas el texto que le queramos dar.-->
-          <a class="navbar-brand" href="#">
-            <img
-              src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/CoffeeDoddle.svg?v=1650829595635"
-              alt=""
-              width="50"
-              height="30"
-              class="d-inline-block align-text-top"
-            />
-            Texto que va al lado de la imagen
-          </a>
           <!--Configuración de los botones de forma relativa dependiendo de la posicion que le queramos dar.-->
-          <button type="button" class="btn btn-outline-light position-relative" href="#Mapa">
-            <a class="btn" href="index.html">Inicio.</a>
-            <span
-              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary"
-            ></span>
-          </button>
-          <button type="button" class="btn btn-primary position-relative">
-            Alerts
-            <span
-              class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"
-              ><span class="visually-hidden">unread messages</span></span
-            >
-          </button>
+          <div class="sticky-top">
+              <a class="btn" href="#Mapa">Ubicación.</a>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary"
+              ></span>
+               <a class="btn" href="#Productos">Productos.</a>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary"
+              ></span>
+         </div>
           <!--Configuración de como va los textos para que queden bien alineados sin importar el tamaño del dispocitivo.-->
           <span class="navbar-text"> hola </span>
           <span class="navbar-text">
