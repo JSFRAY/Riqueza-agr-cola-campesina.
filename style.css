@@ -11,6 +11,7 @@ h5 {
   /*Personaliza el tipo de letra que se utiliza en los titulos de la pagina web.*/
   font-family: "Playfair Display", serif;
 }
+/*Configuraciòn de la imagen en donde esta el nombre de la empresa.*/
 .c {
   height: 400px;
   background-image: url(https://cdn.glitch.global/b7fc09d8-5cde-4d4c-a0ed-f7d57fcde712/20211123_103959.jpg?v=1650812669965);
@@ -43,31 +44,30 @@ h5 {
 .card-text {
   min-height: 10rem;
 }
-.F{
-  height:;
+.F {
+  height: ;
 }
-.stripe-container{
-  display:flex;
+.stripe-container {
+  display: flex;
 }
-.stripe-container .card{
-  width:300px;
-  flex-shrink:0;
-  margin-right:1rem;
+.stripe-container .card {
+  width: 300px;
+  flex-shrink: 0;
+  margin-right: 1rem;
 }
-.Product-stripe{
-  overflow-x:scroll;
-  padding-top:0rem;
-  padding-bottom:1rem;
+.Product-stripe {
+  overflow-x: scroll;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
 }
-.responsive-iframe{
-  position:relative;
-  padding-top:56.25%;
+.responsive-iframe {
+  position: relative;
+  padding-top: 56.25%;
 }
-.responsive-iframe iframe{
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+.responsive-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-
