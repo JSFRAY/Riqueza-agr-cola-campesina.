@@ -23,6 +23,17 @@ h5 {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
+.Imagen {
+  height: 400px;
+  background-image: url(https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/coffee-g5bd5378e2_1280.jpg?v=1650897082309);
+  color: white;
+  /*Configuración de la imagen en el espacio.*/
+  background-size: cover;
+  background-position: center;
+  /*Configuración de cuan opaco quieres la imagen.*/
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
 .Datos {
   height: 200px;
   background-color: #d99058;
@@ -34,7 +45,7 @@ h5 {
   background-blend-mode: darken;
 }
 .Carrusel {
-  height: 600px;
+  height: 400px;
   background-color:;
   color:#4B4847;
   /*Configuración de la imagen en el espacio.*/
