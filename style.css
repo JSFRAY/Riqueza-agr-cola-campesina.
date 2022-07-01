@@ -33,6 +33,16 @@ h5 {
   /*Configuración de cuan opaco quieres la imagen.*/
   background-blend-mode: darken;
 }
+.Carrusel {
+  height: 600px;
+  background-color: #51d1f6;
+  color:#4B4847;
+  /*Configuración de la imagen en el espacio.*/
+  background-size: cover;
+  background-position: center;
+  /*Configuración de cuan opaco quieres la imagen.*/
+  background-blend-mode: darken;
+}
 /*Configuración de espacio de la imagen de las tarjetas.*/
 .c-small {
   height: 200px;
