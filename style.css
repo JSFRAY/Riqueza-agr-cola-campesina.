@@ -34,16 +34,17 @@ h5 {
   background-blend-mode: darken;
 }
 .Carrusel {
-  min-height: 100px; 
-  max-width: 600px; 
-  margin: 0 auto;
-  background-color:;
+  margin: 0px auto 0;
+  padding-bottom: 0%;
+  height: 600 !important;
+  width: auto !important;
+  overflow: hidden;
   color:#4B4847;
   /*Configuración de la imagen en el espacio.*/
   background-size: cover;
   background-position: center;
   /*Configuración de cuan opaco quieres la imagen.*/
-  background-blend-mode: darken;
+  background-blend-mode: normal;
 }
 /*Configuración de espacio de la imagen de las tarjetas.*/
 .c-small {
@@ -65,9 +66,6 @@ h5 {
 }
 .card-text {
   min-height: 10rem;
-}
-.F {
-  height: ;
 }
 .stripe-container {
   display: flex;
