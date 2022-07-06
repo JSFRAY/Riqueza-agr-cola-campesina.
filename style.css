@@ -24,11 +24,14 @@ h5 {
   background-blend-mode: darken;
 }
 .textoCar {
-  height: 330px;
+  height: 400px;
   color: white;
   /*Configuración de la imagen en el espacio.*/
   background-size: cover;
   background-position: center;
+  /*Configuración de cuan opaco quieres la imagen.*/
+  background-color: rgba(0, 0, 0, 0);
+  background-blend-mode: darken;
 }
 .Datos {
   height: 200px;
