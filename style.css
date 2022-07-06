@@ -23,8 +23,12 @@ h5 {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
-.C2 {
-  color:white;
+.textoCar {
+  height: 330px;
+  color: white;
+  /*Configuración de la imagen en el espacio.*/
+  background-size: cover;
+  background-position: center;
 }
 .Datos {
   height: 200px;
@@ -46,7 +50,7 @@ h5 {
   background-size: cover;
   background-position: center;
   /*Configuración de cuan opaco quieres la imagen.*/
-  background-blend-mode: normal;
+  background-blend-mode: darken;
 }
 /*Configuración de espacio de la imagen de las tarjetas.*/
 .c-small {
