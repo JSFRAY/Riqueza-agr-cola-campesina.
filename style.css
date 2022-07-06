@@ -25,14 +25,11 @@ h5 {
 }
 .textoCar {
   height: 400px;
-  color: white;
+  color: green;
   /*Configuración de la imagen en el espacio.*/
   background-size: cover;
   background-position: center;
-  /*Configuración de cuan opaco quieres la imagen.*/
-  background-color: rgba(0, 0, 0, 0);
-  background-blend-mode: darken;
-}
+ }
 .Datos {
   height: 200px;
   background-color: #d99058;
