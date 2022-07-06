@@ -30,6 +30,9 @@ h5 {
   background-size: cover;
   background-position: center;
  }
+.colortext {
+color:green;  
+}
 .Datos {
   height: 200px;
   background-color: #d99058;
