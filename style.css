@@ -23,15 +23,16 @@ h5 {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
-.textoCar {
+.c1 {
   height: 400px;
-  color: green;
+  background-image: url(https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/abc36a8f-c5e9-423b-9965-2ec3c4eefec9.jpg?v=1657089548751);
+  color: white;
   /*Configuración de la imagen en el espacio.*/
   background-size: cover;
   background-position: center;
- }
-.colortext {
-color:green;  
+  /*Configuración de cuan opaco quieres la imagen.*/
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 .Datos {
   height: 200px;
