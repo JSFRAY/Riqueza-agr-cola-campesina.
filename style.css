@@ -37,7 +37,7 @@ h5 {
 .Datos {
   height: 200px;
   background-color: #d99058;
-  color:#4B4847;
+  color: #4b4847;
   /*Configuración de la imagen en el espacio.*/
   background-size: cover;
   background-position: center;
@@ -45,11 +45,11 @@ h5 {
   background-blend-mode: darken;
 }
 .Carrusel {
-  /*Configuración de la altula y el ancho de forma relatva respecto a el carrusel*/  
+  /*Configuración de la altula y el ancho de forma relatva respecto a el carrusel*/
   height: 2 !important;
   width: auto !important;
   overflow: hidden;
-  color:#4B4847;
+  color: #4b4847;
   /*Configuración de la imagen en el espacio.*/
   background-size: cover;
   background-position: center;
