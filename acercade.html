@@ -30,45 +30,37 @@
     <header>
       <!--Configuración de la barra de la parte de encima.-->
       <!-- As a link -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light"
-        style="background-color: #d99058"
-      >
-        <ul class="nav nav-pills nav-fill">
-          <li class="nav-item">
-            <!--Configuración de la imagen o logo mas el texto que le queramos dar.-->
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/CoffeeDoddle.svg?v=1650829595635"
-                alt=""
-                width="50"
-                height="30"
-                class="d-inline-block align-text-top"
-              />
-              Texto que va al lado de la imagen
-            </a>
-          </li>
-          <li class="nav-item"></li>
-        </ul>
-        <div class="container-fluid">
-          <!--Configuración de los botones de forma relativa dependiendo de la posicion que le queramos dar.-->
-          <div class="sticky-top">
-            <a class="btn" href="index.html">Inicio.</a>
-            <span
-              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary"
-            ></span>
-            <a class="btn" href="#Productos">Productos.</a>
-            <span
-              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary"
-            ></span>
-          </div>
-          <!--Configuración de como va los textos para que queden bien alineados sin importar el tamaño del dispocitivo.-->
-          <span class="navbar-text"> hola </span>
-          <span class="navbar-text">
-            todo configurado para que se vea bien en cualquier dispositivo
-          </span>
-        </div>
-      </nav>
+     <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
       <!--Configuración del carrusel, para que se adapte de la mejor manera y ocupe el espacio predeterminado-->
       <div class="Carrusel col-12 col-sm-6 col-lg-5">
         <div
