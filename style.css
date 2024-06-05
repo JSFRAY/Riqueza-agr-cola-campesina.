@@ -12,22 +12,22 @@ h5 {
   font-family: "Playfair Display", serif;
 }
 /*Configuraciòn del boton*/
- .custom-btn {
-            border: none;
-            background: none;
-            padding: 0;
-            display: inline-flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .custom-caption {
-            color: white;
-            transition: color 0.3s ease;
-        }
-        .custom-btn:hover .custom-caption,
-        .custom-btn:focus .custom-caption {
-            color: black;
-        }
+.custom-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.custom-caption {
+  color: white;
+  transition: color 0.3s ease;
+}
+.custom-btn:hover .custom-caption,
+.custom-btn:focus .custom-caption {
+  color: black;
+}
 
 /*Configuraciòn de la imagen en donde esta el nombre de la empresa.*/
 .c {
