@@ -11,6 +11,22 @@ h5 {
   /*Personaliza el tipo de letra que se utiliza en los titulos de la pagina web.*/
   font-family: "Playfair Display", serif;
 }
+/*Configuraciòn del boton*/
+ .custom-btn {
+            border: none;
+            background: none;
+            padding: 0;
+            display: inline-block;
+        }
+        .custom-caption {
+            color: black;
+            transition: color 0.3s ease;
+        }
+        .custom-btn:hover .custom-caption,
+        .custom-btn:focus .custom-caption {
+            color: white;
+        }
+
 /*Configuraciòn de la imagen en donde esta el nombre de la empresa.*/
 .c {
   height: 400px;
