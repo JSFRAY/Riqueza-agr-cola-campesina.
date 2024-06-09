@@ -9,63 +9,41 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body class="p-3 m-0 border-0 bd-example m-0 border-0">
-    <!-- Example Code -->
     <!-- Configuración de la barra de la parte de encima. -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #63b665">
+      <!-- Botón de toggle para pantallas pequeñas -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Configuración de la imagen o logo más el texto que le queramos dar -->
       <a class="navbar-brand" href="index.html" style="margin-left: 4rem">
         <img src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/CoffeeDoddle.svg?v=1650829595635" alt="" title="Logo de Riqueza Agricola Campesina." width="70" height="70" class="d-inline-block align-text-start" />
         <span class="brand-text btn fs-4" title="Riqueza Agricola Campesina.">Riqueza Agricola Campesina.</span>
       </a>
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="btn fs-4" href="Prueva.html" title="¿Quiénes somos?" style="margin-left: 6rem">¿Quiénes somos?</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn fs-4" href="acercade.html" title="Productos y servicios." style="margin-left: 4rem">Productos y servicios.</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn fs-4" href="acercade.html" title="Proveedores." style="margin-left: 4rem">Proveedores.</a>
-            </li>
-            <li class="nav-item">
-              <button class="custom-btn" type="button" style="margin-left: 12rem">
-                <img src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/login-arrow-symbol-entering-back-into-a-square_icon-icons.com_73221.svg?v=1717615908129" class="figure-img img-fluid rounded shadow-lg" style="margin-right: 4rem" alt="" width="50" height="50" title="Ingreso." />
-                <figcaption class="custom-caption fs-5" title="Ingreso." style="margin-right: 4rem">Ingreso.</figcaption>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="btn fs-4" href="Prueva.html" title="¿Quiénes somos?" style="margin-left: 6rem">¿Quiénes somos?</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn fs-4" href="acercade.html" title="Productos y servicios." style="margin-left: 4rem">Productos y servicios.</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn fs-4" href="acercade.html" title="Proveedores." style="margin-left: 4rem">Proveedores.</a>
-          </li>
-          <li class="nav-item">
-            <button class="custom-btn" type="button" style="margin-left: 12rem">
+
+      <!-- Contenedor de los elementos del navbar -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="container-fluid d-lg-flex justify-content-lg-end align-items-lg-center">
+          <!-- Configuración de los botones de forma relativa dependiendo de la posición que le queramos dar -->
+          <a class="btn fs-4" href="Prueva.html" title="¿Quiénes somos?" style="margin-left: 6rem">¿Quiénes somos?</a>
+          <a class="btn fs-4" href="acercade.html" title="Productos y servicios." style="margin-left: 4rem">Productos y servicios.</a>
+          <a class="btn fs-4" href="acercade.html" title="Proveedores." style="margin-left: 4rem">Proveedores.</a>
+
+          <!-- Configuración de la opción de login -->
+          <span class="container d-flex justify-content-lg-end" style="margin-left: 12rem">
+            <button class="custom-btn" type="button">
               <img src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/login-arrow-symbol-entering-back-into-a-square_icon-icons.com_73221.svg?v=1717615908129" class="figure-img img-fluid rounded shadow-lg" style="margin-right: 4rem" alt="" width="50" height="50" title="Ingreso." />
               <figcaption class="custom-caption fs-5" title="Ingreso." style="margin-right: 4rem">Ingreso.</figcaption>
             </button>
-          </li>
-        </ul>
+          </span>
+        </div>
       </div>
     </nav>
     <!-- End Example Code -->
   </body>
 </html>
+
+
 
 
