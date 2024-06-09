@@ -28,6 +28,13 @@ h5 {
 .custom-btn:focus .custom-caption {
   color: black;
 }
+.custom-btn, .navbar .btn {
+        color: white;
+        transition: color 0.3s;
+      }
+      .custom-btn:hover, .navbar .btn:hover {
+        color: black;
+      }
 
 /*Configuraciòn de la imagen en donde esta el nombre de la empresa.*/
 .c {
