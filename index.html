@@ -265,76 +265,85 @@
           ></iframe>
         </div>
       </div>
-      <!--Pestaña de la parte inferior.-->
-<div class="Datos d-flex justify-content-center flex-column" style="background-color: #63b665">
-  <!--Creacion de las columnas.-->
-  <div class="container text-center">
-    <div class="row align-items-start">
-      <div class="col text-nowrap" style="width: 8rem">
-        <h1>Contacto.</h1>
-        <div class="brand-text btn col-10 mb-3" style="text-align: left;">
-          <!--La clase que es tex es para que no aparesca la linea del enlace.-->
+      <!-- Pestaña de la parte inferior. -->
+<div class="Datos py-4" style="background-color: #63b665">
+  <div class="container">
+    <div class="row text-center text-md-left">
+      <!-- Sección de Contacto -->
+      <div class="col-12 col-md-4 mb-4">
+        <h1>Contacto</h1>
+        <div class="mb-3">
           <a
-            class="text-decoration-none"
+            class="text-decoration-none d-flex align-items-center"
             href="https://wa.me/573103957812?text=Hola,%20me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20un%20producto."
             target="_blank"
           >
             <img
               src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/brand-whatsapp.svg?v=1656486153269"
-              alt=""
+              alt="WhatsApp"
               title="WhatsApp"
               width="30"
               height="30"
-              class="d-inline-block align-text-top"
+              class="mr-2"
             />
-          </a>
-          <a
-            class="text-reset text-decoration-none"
-            title="Telefono: (+57) 3103957812"
-            href="https://wa.me/573103957812?text=Hola,%20me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20un%20producto."
-            target="_blank"
-          >
-            Telefono: (+57) 3103957812
+            <span>Telefono: (+57) 3103957812</span>
           </a>
         </div>
         <div>
-          <!--Configuración del enlace del correo más su asunto personalizado.-->
-          <div class="col-4 mb-3">
-            <a
-              class="text-decoration-none"
-              href="mailto:joanenriquenietoreina14@gmail.com?Subject=Informaci%C3%B3n%20sobre%20los%20productos%20y%20servicios."
-            >
-              <img
-                src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/mail-unread-outline.svg?v=1656486302401"
-                alt=""
-                title="Correo electronico"
-                width="30"
-                height="30"
-                class="d-inline-block align-text-top"
-              />
-            </a>
-            <a
-              class="text-reset text-decoration-none"
-              title="E-mail: joanenriquen@gmail.com"
-              href="mailto:joanenriquenietoreina14@gmail.com?Subject=Informaci%C3%B3n%20sobre%20los%20productos%20y%20servicios."
-              >E-mail: joanenriquen@gmail.com</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col"></div>
-      <div class="col">
-        <div class="col-4">
-          <a title="Visitas">
-            <h1>Visitas:</h1>
+          <a
+            class="text-decoration-none d-flex align-items-center"
+            href="mailto:joanenriquenietoreina14@gmail.com?Subject=Informaci%C3%B3n%20sobre%20los%20productos%20y%20servicios."
+          >
+            <img
+              src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/mail-unread-outline.svg?v=1656486302401"
+              alt="Correo electrónico"
+              title="Correo electrónico"
+              width="30"
+              height="30"
+              class="mr-2"
+            />
+            <span>E-mail: joanenriquen@gmail.com</span>
           </a>
         </div>
       </div>
+
+      <!-- Sección de Visitas -->
+      <div class="col-12 col-md-4 mb-4">
+        <h1>Visitas:</h1>
+        <p id="visit-count">Cargando...</p>
+      </div>
+
+      <!-- Sección de Versionamiento -->
+      <div class="col-12 col-md-4 mb-4">
+        <h1>Versionamiento</h1>
+        <p>Versión 1.0.0</p>
+      </div>
+    </div>
+
+    <!-- Sección de Copyright -->
+    <div class="row text-center">
+      <div class="col-12">
+        <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+      </div>
     </div>
   </div>
-
-  <!--Salto de linea de las columnas.  <div class="w-100"></div>-->
 </div>
+
+<script>
+  // Contador de visitas usando LocalStorage
+  document.addEventListener('DOMContentLoaded', (event) => {
+    if (localStorage.getItem('visitCount')) {
+      let count = parseInt(localStorage.getItem('visitCount'));
+      count++;
+      localStorage.setItem('visitCount', count);
+      document.getElementById('visit-count').innerText = count;
+    } else {
+      localStorage.setItem('visitCount', 1);
+      document.getElementById('visit-count').innerText = 1;
+    }
+  });
+</script>
+
 
     </section>
   </body>
