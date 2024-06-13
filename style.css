@@ -11,6 +11,7 @@ h5 {
   /*Personaliza el tipo de letra que se utiliza en los titulos de la pagina web.*/
   font-family: "Playfair Display", serif;
 }
+
 /*Configuraciòn del boton*/
 .custom-btn {
   border: none;
@@ -28,13 +29,46 @@ h5 {
 .custom-btn:focus .custom-caption {
   color: black;
 }
-.custom-btn, .navbar .btn {
-        color: white;
-        transition: color 0.3s;
-      }
-      .custom-btn:hover, .navbar .btn:hover {
-        color: black;
-      }
+.custom-btn,
+.navbar .btn {
+  color: white;
+  transition: color 0.3s;
+}
+.custom-btn:hover,
+.navbar .btn:hover {
+  color: black;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.brand-text {
+  margin-left: 10px;
+}
+.nav-item {
+  margin: 0 15px;
+}
+.navbar-toggler {
+  order: 1;
+  border: none;
+}
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%280, 0, 0, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+.navbar-collapse {
+  flex-grow: 1;
+  justify-content: center;
+}
+.login-btn {
+  order: 3;
+  margin-left: auto;
+}
+.navbar-nav {
+  flex-direction: row;
+}
 
 /*Configuraciòn de la imagen en donde esta el nombre de la empresa.*/
 .c {
