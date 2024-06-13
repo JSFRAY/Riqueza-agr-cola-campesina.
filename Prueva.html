@@ -27,11 +27,12 @@
         order: 1;
       }
       .navbar-collapse {
-        flex-grow: 0;
+        flex-grow: 1;
         justify-content: center;
       }
       .login-btn {
         order: 3;
+        margin-left: auto;
       }
       .navbar-nav {
         flex-direction: row;
@@ -46,7 +47,7 @@
         <!-- Configuración de la imagen o logo más el texto que le queramos dar -->
         <a class="navbar-brand" href="index.html">
           <img src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/CoffeeDoddle.svg?v=1650829595635" alt="Logo de Riqueza Agricola Campesina." width="70" height="70" class="d-inline-block align-text-start" />
-          <span class="brand-text btn fs-4">Riqueza Agricola Campesina.</span>
+          <span class="brand-text btn fs-4 p-0">Riqueza Agricola Campesina.</span>
         </a>
 
         <!-- Botón de toggle para pantallas pequeñas -->
@@ -55,10 +56,10 @@
         </button>
 
         <!-- Contenedor de los elementos del navbar -->
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link btn fs-4" href="Prueva.html" title="¿Quiénes somos?">¿Quiénes somos?</a>
+              <a class="nav-link btn fs-4" href="Prueva.html" style="margin-left: 5rem" title="¿Quiénes somos?">¿Quiénes somos?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link btn fs-4" href="acercade.html" title="Productos y servicios.">Productos y servicios.</a>
@@ -67,20 +68,21 @@
               <a class="nav-link btn fs-4" href="acercade.html" title="Proveedores.">Proveedores.</a>
             </li>
           </ul>
-        </div>
-        
-        <!-- Configuración de la opción de login -->
-        <div class="d-flex align-items-center ms-auto login-btn">
-          <button class="custom-btn" type="button">
-            <img src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/login-arrow-symbol-entering-back-into-a-square_icon-icons.com_73221.svg?v=1717615908129" class="figure-img img-fluid rounded shadow-lg" alt="Ingreso." width="50" height="50" />
-            <figcaption class="fs-5">Ingreso.</figcaption>
-          </button>
+
+          <!-- Configuración de la opción de login -->
+          <div class="d-flex align-items-center login-btn">
+            <button class="custom-btn" type="button">
+              <img src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/login-arrow-symbol-entering-back-into-a-square_icon-icons.com_73221.svg?v=1717615908129" class="figure-img img-fluid rounded shadow-lg" alt="Ingreso." width="50" height="50" />
+              <figcaption class="fs-5">Ingreso.</figcaption>
+            </button>
+          </div>
         </div>
       </div>
     </nav>
     <!-- End Example Code -->
   </body>
 </html>
+
 
 
 
