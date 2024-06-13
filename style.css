@@ -13,62 +13,52 @@ h5 {
 }
 
 /*Configuraciòn del boton*/
-.custom-btn {
-  border: none;
-  background: none;
-  padding: 0;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-}
-.custom-caption {
-  color: white;
-  transition: color 0.3s ease;
-}
-.custom-btn:hover .custom-caption,
-.custom-btn:focus .custom-caption {
-  color: black;
-}
-.custom-btn,
-.navbar .btn {
-  color: white;
-  transition: color 0.3s;
-}
-.custom-btn:hover,
-.navbar .btn:hover {
-  color: black;
-}
-.navbar-brand {
-  display: flex;
-  align-items: center;
-}
-.brand-text {
-  margin-left: 10px;
-}
-.nav-item {
-  margin: 0 15px;
-}
-.navbar-toggler {
-  order: 1;
-  border: none;
-}
-.navbar-toggler-icon {
-  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
-}
-.navbar-toggler:hover .navbar-toggler-icon {
-  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%280, 0, 0, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
-}
-.navbar-collapse {
-  flex-grow: 1;
-  justify-content: center;
-}
-.login-btn {
-  order: 3;
-  margin-left: auto;
-}
-.navbar-nav {
-  flex-direction: row;
-}
+    .navbar-nav .nav-link {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            color: white; /* Color inicial de los enlaces */
+            transition: color 0.3s; /* Transición suave para el cambio de color */
+        }
+        .navbar-nav .nav-link:hover {
+            color: black; /* Color de los enlaces al pasar el mouse */
+        }
+        .navbar-brand .brand-text {
+            color: white; /* Color inicial del texto de la marca */
+            transition: color 0.3s; /* Transición suave para el cambio de color */
+        }
+        .navbar-brand .brand-text:hover {
+            color: black; /* Color del texto de la marca al pasar el mouse */
+        }
+        .login-btn {
+            margin-left: 1rem;
+        }
+        .custom-btn {
+            background: none;
+            border: none;
+            color: white; /* Color inicial del botón */
+            transition: color 0.3s; /* Transición suave para el cambio de color */
+        }
+        .custom-btn:hover {
+            color: black; /* Color del botón al pasar el mouse */
+        }
+        .custom-btn img {
+            width: 50px;
+            height: 50px;
+        }
+        .navbar-toggler {
+            border: 2px solid white; /* Bordes blancos inicialmente */
+            transition: border-color 0.3s; /* Transición suave para el cambio de color del borde */
+        }
+        .navbar-toggler:hover {
+            border-color: black; /* Bordes negros al pasar el mouse */
+        }
+        .navbar-toggler-icon {
+            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="white" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+            transition: background-image 0.3s;
+        }
+        .navbar-toggler:hover .navbar-toggler-icon {
+            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="black" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+        }
 
 /*Configuraciòn de la imagen en donde esta el nombre de la empresa.*/
 .c {
