@@ -29,6 +29,18 @@
             width: 30px;
             height: 30px;
         }
+        .contact-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+        .contact-link {
+            color: white;
+            text-decoration: none;
+        }
+        .contact-link:hover {
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -75,8 +87,18 @@
                 <!-- Información de contacto -->
                 <div class="col-12 col-md-4 mb-4">
                     <h5>Contacto</h5>
-                    <p><i class="fas fa-phone"></i> Teléfono: (+57) 3103957812</p>
-                    <p><i class="fas fa-envelope"></i> E-mail: joanenriquen@gmail.com</p>
+                    <p>
+                        <a href="https://wa.me/573103957812?text=Hola,%20me%20gustaría%20obtener%20más%20información%20o%20asesoría." target="_blank" class="contact-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="contact-icon" alt="WhatsApp">
+                            <i class="fas fa-phone"></i> Teléfono: (+57) 3103957812
+                        </a>
+                    </p>
+                    <p>
+                        <a href="mailto:joanenriquen@gmail.com?subject=Solicitud%20de%20Información&body=Hola,%20me%20gustaría%20obtener%20más%20información%20o%20asesoría." target="_blank" class="contact-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" class="contact-icon" alt="Email">
+                            <i class="fas fa-envelope"></i> E-mail: joanenriquen@gmail.com
+                        </a>
+                    </p>
                 </div>
 
                 <!-- Redes Sociales -->
@@ -118,4 +140,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
