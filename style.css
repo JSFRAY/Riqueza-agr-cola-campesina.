@@ -152,6 +152,7 @@ footer {
   /*Configuración de cuan opaco quieres la imagen.*/
   background-blend-mode: darken;
 }
+
 /*Configuración de espacio de la imagen de las tarjetas.*/
 .c-small {
   height: 200px;
