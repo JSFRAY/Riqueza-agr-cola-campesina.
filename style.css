@@ -90,6 +90,31 @@ h5 {
   }
 }
 
+/*Espacio de la parte inferiro.*/
+footer {
+        background-color: #63b665;
+      }
+      footer h5,
+      footer p,
+      footer small {
+        color: white;
+      }
+      .social-icon img {
+        width: 30px;
+        height: 30px;
+      }
+      .contact-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+      }
+      .contact-link {
+        color: white;
+        text-decoration: none;
+      }
+      .contact-link:hover {
+        color: black;
+      }
 
 /*Configuraciòn de la imagen en donde esta el nombre de la empresa.*/
 .c {
@@ -114,16 +139,7 @@ h5 {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
 }
-.Datos {
-  height: 200px;
-  background-color: #d99058;
-  color: #4b4847;
-  /*Configuración de la imagen en el espacio.*/
-  background-size: cover;
-  background-position: center;
-  /*Configuración de cuan opaco quieres la imagen.*/
-  background-blend-mode: darken;
-}
+
 .Carrusel {
   /*Configuración de la altula y el ancho de forma relatva respecto a el carrusel*/
   height: 2 !important;
