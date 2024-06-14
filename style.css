@@ -62,14 +62,32 @@ h5 {
 
 /* Estilos adicionales */
 .Datos {
-  min-height: 100vh; /* Asegura que cubra al menos la altura de la ventana gráfica */
+  background-color: #63b665;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  justify-content: space-between;
+  min-height: 100vh; /* Asegura que cubra al menos la altura de la ventana gráfica */
+  padding: 1rem 0; /* Añade padding para que el contenido no toque los bordes */
 }
 
 .container {
   flex: 1;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio entre las columnas */
+}
+
+.col-12 {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
 }
 
 
