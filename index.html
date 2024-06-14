@@ -315,133 +315,82 @@
           ></iframe>
         </div>
       </div>
-      <!-- Pestaña de la parte inferior. -->
-      <div class="Datos py-4" style="background-color: #63b665">
-        <div class="container">
-          <div class="row text-center">
-            <!-- Sección de Contacto -->
-            <div class="col-12 col-md-4 mb-4">
-              <h1 class="mb-3">Contacto</h1>
-              <div class="mb-3">
-                <a
-                  class="text-decoration-none d-flex align-items-center justify-content-center"
-                  href="https://wa.me/573103957812?text=Hola,%20me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20un%20producto."
-                  target="_blank"
-                >
-                  <img
-                    src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/brand-whatsapp.svg?v=1656486153269"
-                    alt="WhatsApp"
-                    title="WhatsApp"
-                    width="30"
-                    height="30"
-                    class="mr-2"
-                  />
-                  <span>Telefono: (+57) 3103957812</span>
-                </a>
-              </div>
-              <div>
-                <a
-                  class="text-decoration-none d-flex align-items-center justify-content-center"
-                  href="mailto:joanenriquenietoreina14@gmail.com?Subject=Informaci%C3%B3n%20sobre%20los%20productos%20y%20servicios."
-                >
-                  <img
-                    src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/mail-unread-outline.svg?v=1656486302401"
-                    alt="Correo electrónico"
-                    title="Correo electrónico"
-                    width="30"
-                    height="30"
-                    class="mr-2"
-                  />
-                  <span>E-mail: joanenriquen@gmail.com</span>
-                </a>
-              </div>
-            </div>
-
-            <!-- Sección de Redes Sociales -->
-            <div class="col-12 col-md-4 mb-4">
-              <h1 class="mb-3">Redes Sociales</h1>
-              <div class="d-flex justify-content-center">
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  title="Facebook"
-                  class="mx-2"
-                >
-                  <img
-                    src="https://cdn.glitch.global/bade573e-b355-48ef-b4b0-3bf91517042b/images.png?v=1662059298634"
-                    alt="Facebook"
-                    width="30"
-                    height="30"
-                  />
-                </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  title="Twitter"
-                  class="mx-2"
-                >
-                  <img
-                    src="as"
-                    alt="Twitter"
-                    width="30"
-                    height="30"
-                  />
-                </a>
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  title="Instagram"
-                  class="mx-2"
-                >
-                  <img
-                    src="https://cdn.glitch.global/bade573e-b355-48ef-b4b0-3bf91517042b/580b57fcd9996e24bc43c521.png?v=1662057597175"
-                    alt="Instagram"
-                    width="30"
-                    height="30"
-                  />
-                </a>
-                <!-- Agregar más redes sociales aquí -->
-              </div>
-            </div>
-
-            <!-- Sección de Visitas y Versionamiento -->
-            <div class="col-12 col-md-4 mb-4">
-              <div class="mb-3">
-                <small>
-                  <h5 class="mb-3">Visitas:</h5>
-                  <span id="visit-count">Cargando...</span></small
-                >
-              </div>
-              <h5 class="mb-3">Versionamiento</h5>
-              <p>Versión 1.0.0</p>
-            </div>
-          </div>
-
-          <!-- Sección de Copyright -->
-          <div class="row">
-            <div class="col-12 text-center">
-              <p class="mt-4">
-                &copy; 2024 Tu Empresa. Todos los derechos reservados.
-              </p>
-            </div>
-          </div>
+    <!-- Pestaña de la parte inferior. -->
+<div class="Datos py-4" style="background-color: #63b665;">
+  <div class="container">
+    <div class="row text-center">
+      <!-- Sección de Contacto -->
+      <div class="col-12 col-md-4 mb-4">
+        <h1 class="mb-3">Contacto</h1>
+        <div class="mb-3">
+          <a class="text-decoration-none d-flex align-items-center justify-content-center" href="https://wa.me/573103957812?text=Hola,%20me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20un%20producto." target="_blank">
+            <img src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/brand-whatsapp.svg?v=1656486153269" alt="WhatsApp" title="WhatsApp" width="30" height="30" class="mr-2"/>
+            <span>Telefono: (+57) 3103957812</span>
+          </a>
+        </div>
+        <div>
+          <a class="text-decoration-none d-flex align-items-center justify-content-center" href="mailto:joanenriquenietoreina14@gmail.com?Subject=Informaci%C3%B3n%20sobre%20los%20productos%20y%20servicios.">
+            <img src="https://cdn.glitch.global/5654f98f-00cd-4cb1-b8b4-30d2602318de/mail-unread-outline.svg?v=1656486302401" alt="Correo electrónico" title="Correo electrónico" width="30" height="30" class="mr-2"/>
+            <span>E-mail: joanenriquen@gmail.com</span>
+          </a>
         </div>
       </div>
 
-      <script>
-        // Contador de visitas usando LocalStorage
-        document.addEventListener("DOMContentLoaded", (event) => {
-          if (localStorage.getItem("visitCount")) {
-            let count = parseInt(localStorage.getItem("visitCount"));
-            count++;
-            localStorage.setItem("visitCount", count);
-            document.getElementById("visit-count").innerText = count;
-          } else {
-            localStorage.setItem("visitCount", 1);
-            document.getElementById("visit-count").innerText = 1;
-          }
-        });
-      </script>
+      <!-- Sección de Redes Sociales -->
+      <div class="col-12 col-md-4 mb-4">
+        <h1 class="mb-3">Redes Sociales</h1>
+        <div class="d-flex justify-content-center">
+          <a href="https://facebook.com" target="_blank" title="Facebook" class="mx-2">
+            <img src="https://cdn.glitch.global/bade573e-b355-48ef-b4b0-3bf91517042b/images.png?v=1662059298634" alt="Facebook" width="30" height="30"/>
+          </a>
+          <a href="https://twitter.com" target="_blank" title="Twitter" class="mx-2">
+            <img src="as" alt="Twitter" width="30" height="30"/>
+          </a>
+          <a href="https://instagram.com" target="_blank" title="Instagram" class="mx-2">
+            <img src="https://cdn.glitch.global/bade573e-b355-48ef-b4b0-3bf91517042b/580b57fcd9996e24bc43c521.png?v=1662057597175" alt="Instagram" width="30" height="30"/>
+          </a>
+          <!-- Agregar más redes sociales aquí -->
+        </div>
+      </div>
+
+      <!-- Sección de Visitas y Versionamiento -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="mb-3">
+          <small>
+            <h5 class="mb-3">Visitas:</h5>
+            <span id="visit-count">Cargando...</span>
+          </small>
+        </div>
+        <h5 class="mb-3">Versionamiento</h5>
+        <p>Versión 1.0.0</p>
+      </div>
+    </div>
+
+    <!-- Sección de Copyright -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="mt-4">&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Contador de visitas usando LocalStorage
+  document.addEventListener("DOMContentLoaded", (event) => {
+    if (localStorage.getItem("visitCount")) {
+      let count = parseInt(localStorage.getItem("visitCount"));
+      count++;
+      localStorage.setItem("visitCount", count);
+      document.getElementById("visit-count").innerText = count;
+    } else {
+      localStorage.setItem("visitCount", 1);
+      document.getElementById("visit-count").innerText = 1;
+    }
+  });
+</script>
+
+
     </section>
   </body>
 </html>
